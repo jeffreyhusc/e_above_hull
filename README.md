@@ -16,10 +16,10 @@ A positive E above hull indicates that this material is unstable with respect to
 ```
 if ehull < 1/1000:
         print "Entry is stable."
-    elif ehull < 30/1000:
+elif ehull < 30/1000:
         print "Entry is metastable and could be stable at finite temperatures."
-    elif ehull < 50/1000:
+elif ehull < 50/1000:
         print "Entry has a low probability of being stable."
-    else:
+else:
         print "Entry is very unlikely to be stable."
 ```
