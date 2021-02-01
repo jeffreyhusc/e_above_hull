@@ -13,7 +13,7 @@ python3 e_above_hull_jfh.py compound_energy.csv
 
 A positive E above hull indicates that this material is unstable with respect to decomposition. A zero E above hull indicates that this is the most stable material at its composition.
 
-if ehull < 1/1000:
+```if ehull < 1/1000:
         print "Entry is stable."
     elif ehull < 30/1000:
         print "Entry is metastable and could be stable at finite temperatures."
@@ -21,3 +21,4 @@ if ehull < 1/1000:
         print "Entry has a low probability of being stable."
     else:
         print "Entry is very unlikely to be stable."
+```
